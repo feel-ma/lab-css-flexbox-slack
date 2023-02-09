@@ -8,3 +8,535 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+.boxmargin{
+    margin: 4px 4%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.yellowtext{
+    color: #ECB12F;
+}
+
+
+.purpletext{
+    color: #540B51;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.sb{
+    justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+}
+
+.loginbttn{
+    max-width: 90%;
+
+}
+
+.ma{
+    margin: auto;
+}
+
+.flexstart{
+    display: flex;
+    justify-content: ;
+}
+
+.bluebkg{
+    background-color: #4285F4 ;
+}
+
+.wbkg{
+    background-color: white;
+    
+}
+
+.signinb{
+    max-width: 95%;
+    height:30px;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.logosf{
+    height: 100px;
+    object-fit:"contain";
+}
+
+.mxw4{
+    max-width: 40%;
+}
+
+.mxw25{
+    padding-inline-start: 0px;
+
+    font-size: 10px;
+    margin: 0;
+}
+
+.marginl{
+    margin-left: 2%;
+}
+
+.marginm{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.marginr{
+    margin-right: 2%;
+}
+
+.margintb{
+    margin: 5% 0%;
+}
+
+.txtc{
+    text-align: center;
+}
+
+.jcse{
+    justify-content: space-evenly;
+}
+
+.atc{
+    align-items: center;
+}
+
+.padr{
+    padding: 5% 0%;
+   padding-right: 7.5%;
+  
+}
+.pad{
+    padding: 5%;
+}
+.padl{
+    padding-left: 7.5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.padu{
+    padding:0% 5%;
+}
+
+.acs{
+    align-content: stretch;
+}
+
+.jcc{
+    justify-content: center;
+}
+
+.bk-img{
+    max-width: 100%;
+}
+
+
+.nob{
+    border: 0;
+
+}
+
+.topm{
+    padding: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.topl{
+    padding: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.purpleb{
+  background-color:  #5f0e5c;
+  height: 1px;
+
+}
+
+.right{
+    align-items: flex-end;
+}
+
+
+.imgg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+
+}
+
+.purple{
+    background-color: #540B51;
+}
+
+.ivory{
+    background-color: #F3EAE2;
+}
+
+.white{
+    color: white;
+}
+
+#ftt{
+
+}
+
+#ftt li{
+    border:1px solid grey;
+    padding:5px 10px;
+  }
+/* MEDIA QUERY */
+@media (max-width:1024px) and (min-width:768px){
+    #header-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 500px;
+
+    }
+
+    .bs5{
+        width: 50%;
+    }
+
+    #firstimg{
+
+        height: 200px;
+        background-size: contain;
+
+    }
+
+    .imgs{
+        height: 500px;
+        
+    }
+
+   .fxend{
+        display: flex;
+        justify-content: flex-end;
+
+    }
+
+    .bsb{
+        max-width: 40%;
+    }
+
+    .notxtc{
+        text-align: left;
+    }
+
+    .mauto{
+        margin: auto;
+    }
+    
+    #logos{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bubu{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .nom{
+        margin: 0;
+    }
+
+    .oom{
+        margin: 0px 20px;
+    }
+
+    .mxw60{
+        max-width: 60%;
+        margin: auto;
+    }
+
+    .fxcolumn{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .pd3{
+       padding: 0% 15%;
+    }
+
+    .mxw3{max-width: 30%;}
+
+    .unbt{
+        margin: auto;
+        padding: 30px 300px 30px 230px;
+        border: 0;
+        margin-bottom: 10px;
+        white-space: nowrap;
+    }
+
+    #last{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #scl{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    #scl > li{
+        margin: 0px 25px;
+    }
+
+    .hm{
+        display: none;
+    }
+    
+}
+
+@media (max-width:1024px){
+
+    .hm{
+        display: none;
+    }
+    
+
+
+}
+
+
+@media (max-width:1440px) and (min-width:1024px){
+
+    .hide{
+        display: none;
+    }
+
+    #menu{
+
+    }
+
+    #menubar{
+        display: flex;
+
+ 
+        justify-content: space-around;
+    
+    }
+
+    #menubar > a{
+        color: white;
+        margin: 0px 50px;
+
+
+        text-decoration: none;
+    }
+
+    .jcac{
+        justify-content: center;
+        align-content: center;
+    }
+
+    #sss{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    #sss > li{
+        margin: 0px 20px;
+    }
+
+    li a{
+        color: white;
+        text-decoration: none;
+        margin: auto;
+    }
+
+    .wb{
+        background-color: white;
+        padding: 5px 20px;
+
+        
+    }
+
+    
+
+    #firstimg{
+
+        height: 400px;
+        background-size: contain;
+
+    }
+
+    
+
+    .mainm{
+        display: flex;
+        
+
+    }
+
+    .imm{
+        width: 800px;
+        
+    }
+    .fxend{
+        display: flex;
+        justify-content: flex-end;
+
+    }
+
+    #invme{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .pos{
+        order: 3;
+    }
+
+
+    #header-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 500px;
+
+    }
+
+    .bs5{
+        width: 50%;
+    }
+
+    #firstimg{
+
+        height: 200px;
+        background-size: contain;
+
+    }
+
+    .imgs{
+        height: 500px;
+        
+    }
+
+   .fxend{
+        display: flex;
+        justify-content: flex-end;
+
+    }
+
+    .bsb{
+        max-width: 40%;
+    }
+
+    .notxtc{
+        text-align: left;
+    }
+
+    .mauto{
+        margin: auto;
+    }
+    
+    #logos{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bubu{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .nom{
+        margin: 0;
+    }
+
+    .oom{
+        margin: 0px 20px;
+    }
+
+    .mxw60{
+        max-width: 60%;
+        margin: auto;
+    }
+
+    .fxcolumn{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .pd3{
+       padding: 0% 15%;
+    }
+
+    .mxw3{max-width: 30%;}
+
+    .unbt{
+        margin: auto;
+        padding: 30px 300px 30px 230px;
+        border: 0;
+        margin-bottom: 10px;
+        white-space: nowrap;
+    }
+
+    #last{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #scl{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    #scl > li{
+        margin: 0px 25px;
+    }
+
+    .hm{
+        display: none;
+    }
+
+    #basta{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+
+
+
+
+}
